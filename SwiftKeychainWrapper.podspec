@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.watchos.deployment_target = '3.0'
   s.tvos.deployment_target = '11.0'
-  s.watchos.deployment_target = '3.0'
   s.swift_version = ['4.2', '5.0']
   s.source = { :git => 'https://github.com/jrendel/SwiftKeychainWrapper.git', :tag => s.version }
   s.source_files = 'SwiftKeychainWrapper/*.{h,swift}'
